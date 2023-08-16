@@ -27,13 +27,17 @@
   margin-right: 0;
 }
 
-.item-content {
+.item-image-wrapper {
   display: inline-block;
-  vertical-align: bottom;
+
+  line-height: 226px;
+
+  height: 226px;
+  margin-bottom: 24px;
 }
 
 .item-image {
-  margin-bottom: 24px;
+  vertical-align: bottom;
 }
 
 .item-title {
