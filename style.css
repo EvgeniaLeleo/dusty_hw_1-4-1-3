@@ -1,19 +1,31 @@
-.services {
+.services-title {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.208;
+  color: #211f54;
+
+  width: 475px;
+  margin: 0;
+  margin-bottom: 62px;
+}
+
+.services-items-list {
   font: 0/0 a;
 
-  height: 494px;
+  padding: 0;
 }
 
 .services-item {
   display: inline-block;
 
+  font-family: 'Roboto', Helvetica, sans-serif;
+
   width: 388px;
-  height: 100%;
   padding: 48px 38px 30px;
   margin-right: 28px;
   box-sizing: border-box;
 
-  font-family: 'Roboto', Helvetica, sans-serif;
   text-align: center;
   vertical-align: top;
 
@@ -33,7 +45,6 @@
   line-height: 226px;
 
   height: 226px;
-  margin-bottom: 24px;
 }
 
 .item-image {
@@ -47,6 +58,7 @@
   color: #211f54;
 
   margin: 0;
+  margin-top: 24px;
 }
 
 .item-text {
@@ -56,5 +68,5 @@
   color: #6e7191;
 
   margin: 0;
-  margin-top: 13px;
+  margin-top: 12px;
 }
